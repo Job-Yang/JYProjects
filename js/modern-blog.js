@@ -51,11 +51,11 @@ var demo = (function (window) {
         var pattern = Trianglify({
             width: window.innerWidth,
             height: window.innerHeight,
-            cell_size: 90,
+            cell_size: 50,
             variance: 1,
             stroke_width: 1,
-            x_colors: 'random',
-            y_colors: 'random'
+            x_colors: 'Blues',
+            y_colors: 'Blues'
         }).svg(); // Render as SVG.
 
         _mapPolygons(pattern);
